@@ -25,9 +25,11 @@ namespace QueueDropper
             {
                 case "1":
                     OneMessage();
+                    Console.WriteLine("Success!!");
                     break;
                 case "2":
                     TwentyMessages();
+                    Console.WriteLine("Success!!");
                     break;
                 case "3":
                     EndlessMessages();
@@ -37,7 +39,6 @@ namespace QueueDropper
                     break;
             }
                    
-            Console.WriteLine("Success!!");
             Console.ReadLine();
         }
 
